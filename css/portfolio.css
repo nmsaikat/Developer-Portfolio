@@ -199,6 +199,37 @@ main section {
 footer {
   display: flex;
   margin-top: 100px;
+  gap: 100px;
   background-color: #fff8f3;
   padding: 150px 200px;
+}
+
+.footer-column {
+  width: 50%;
+}
+
+.social-links a {
+  margin-right: 25px;
+}
+
+.footer-column,
+.section-title {
+  text-align: left;
+}
+
+.footer-column,
+.section-description {
+  text-align: left;
+}
+
+.contect input[type="text"],
+[type="email"],
+textarea {
+  display: block;
+  margin-bottom: 15px;
+  padding: 18px 30px;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 0;
+  width: 100%;
 }
