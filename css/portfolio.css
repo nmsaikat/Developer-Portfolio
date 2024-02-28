@@ -194,3 +194,11 @@ main section {
   text-align: center;
   margin-top: 50px;
 }
+
+/* Footer CSS */
+footer {
+  display: flex;
+  margin-top: 100px;
+  background-color: #fff8f3;
+  padding: 150px 200px;
+}
